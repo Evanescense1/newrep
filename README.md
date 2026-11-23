@@ -90,8 +90,8 @@ _**В дальнейшем, стоит уточнить, что большая �
 ```mermaid
 graph LR;
 	untracked -- "git add" --> staged;
-	staged -- "изменение файла" --> modified/staged.
-	modified/staged -- "git add" --> staged.
+	staged -- "изменение файла" --> modified/staged;
+	modified/staged -- "git add" --> staged;
 	staged -- "git commit" --> tracked/commited;
 ```
 	
